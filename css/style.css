@@ -1,0 +1,66 @@
+body{
+    font-size: 18px !important;
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000;
+}
+.app{
+    padding: 70px 15px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form input {
+    background-color: transparent;
+    color: #fff !important;
+    padding: 10px 30px;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    text-shadow: 1px 1px 1px #000;
+}
+.form label {
+    position: relative;
+}
+.form input::placeholder{
+    color: #fff
+}
+.form input:focus{
+    outline: none;
+}
+.button {
+    border-radius: 0px 30px 30px 0px;
+    color: #fff;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border: none;
+}
+.button img{
+    width: 20px;
+}
+.city {
+    padding: 20px;
+    text-align: center;
+}
+.weather{
+    height: 100%;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    width: 50px;
+}
